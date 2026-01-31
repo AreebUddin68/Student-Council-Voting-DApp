@@ -1,0 +1,38 @@
+{
+  "name": "student-council-voting-dapp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.2.2",
+    "@rainbow-me/rainbowkit": "^2.0.2",
+    "@tanstack/react-query": "^5.17.19",
+    "date-fns": "^3.0.6",
+    "next": "^16.1.6",
+    "papaparse": "^5.4.1",
+    "qr": "^0.5.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.49.3",
+    "react-hot-toast": "^2.4.1",
+    "viem": "^2.7.6",
+    "wagmi": "^2.5.7",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "@types/papaparse": "^5.3.14",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3"
+  }
+}
